@@ -19,9 +19,9 @@ export class AlbumDetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
-    this.albumId = urlParameters['id'];
-    });
-    this.albumToDisplay = this.albumService.getAlbumsById(this.albumId);
+     this.albumId = urlParameters['id'];
+   });
+   this.albumToDisplay = this.albumService.getAlbumById(this.albumId);
   }
 
 }

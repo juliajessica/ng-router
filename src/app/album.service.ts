@@ -18,7 +18,7 @@ export class AlbumService {
     this.albums.push(newAlbum);
   }
 
-  getAlbumsById(albumId: string){
+  getAlbumById(albumId: string){
     return this.database.object('albums/' + albumId);
     // for(let i=0; i<=ALBUMS.length - 1; i++) {
     //   if (ALBUMS[i].id === albumId){
