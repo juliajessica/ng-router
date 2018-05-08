@@ -2,26 +2,30 @@
   <div class="panel-heading">
     <h3 class="panel-title">Add New Album to Inventory</h3>
   </div>
-  <div class="panel-body">
+  <div class="panel-body" style="background-color: #c6d1c9">
     <div>
       <div>
         <label>Album Title:</label>
         <br>
-        <input #newTitle>
+        <input #newTitle class="form-control">
       </div>
 
       <div>
         <label>Album Artist:</label>
         <br>
-        <input #newArtist>
+        <input #newArtist class="form-control">
       </div>
 
       <div>
         <label>Album Description:</label>
         <br>
-        <textarea #newDescription></textarea>
+        <textarea #newDescription class="form-control"></textarea>
       </div>
-      <button (click)="submitForm(newTitle.value, newArtist.value, newDescription.value); newTitle.value=''; newArtist.value=''; newDescription.value=''">Add</button>
+      <br>
+      <button (click)="submitForm(newTitle.value, newArtist.value, newDescription.value); newTitle.value=''; newArtist.value=''; newDescription.value=''" class="btn btn-primary">Add</button>
     </div>
   </div>
+</div>
+<div>
+  <app-marketplace></app-marketplace>
 </div>
