@@ -60,10 +60,9 @@ _This project uses Asynchrony and APIs, and Firebase. All dependencies required 
   Album data structure:
   ````
   Album {
+    title: string
     artist: string
     description: string
-    id: string (unique value required)
-    title: string
   }
 ````
  
