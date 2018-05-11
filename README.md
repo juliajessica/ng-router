@@ -1,4 +1,9 @@
+## Screenshots of Application
 
+Screenshots
+![alt text](https://github.com/juliajessica/ng-router/blob/master/src/assets/img/edit.png?raw=true)
+![alt text](https://github.com/juliajessica/ng-router/blob/master/src/assets/img/add.png?raw=true)
+![alt text](https://github.com/juliajessica/ng-router/blob/master/src/assets/img/view.png?raw=true)
 
 # NgRouter
 
