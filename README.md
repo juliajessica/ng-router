@@ -23,11 +23,10 @@ _This project uses Asynchrony and APIs, and Firebase. All dependencies required 
 
 #### Node.js & NPM Installation Instructions
   Install `Node.js`, `TypeScript`, and `AngularCLI` globally through Homebrew with the following command in your home directory:
-    ````sh
-    $ brew install node
-    $ npm install -g typescript
-    $ npm install -g @angular/cli@1.7.4
-    ````
+    `$ brew install node`
+    `$ npm install -g typescript`    
+    `$ npm install -g @angular/cli@1.7.4`
+    
 
 ## <span style="color:#74875d;">Setup/Installation Requirements</span> :computer:
 * In <a href="https://firebase.google.com/">FireBase</a> console, create an account and start a new project.
