@@ -22,10 +22,10 @@ _This Angular webpage application is designed to present albums to users. The ad
 _This project uses Asynchrony and APIs, and Firebase. All dependencies required are included in this project._
 
 #### Node.js & NPM Installation Instructions
-  Install `Node.js`, `TypeScript`, and `AngularCLI` globally through Homebrew with the following command in your home directory:
-    `$ brew install node`
-    `$ npm install -g typescript`    
-    `$ npm install -g @angular/cli@1.7.4`
+  Install `Node.js`, `TypeScript`, and `AngularCLI` globally through with the following commands in your home directory:
+   * `$ brew install node`
+   * `$ npm install -g typescript`    
+   * `$ npm install -g @angular/cli@1.7.4`
     
 
 ## <span style="color:#74875d;">Setup/Installation Requirements</span> :computer:
